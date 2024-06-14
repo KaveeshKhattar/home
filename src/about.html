@@ -1,0 +1,451 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Projects | Kaveesh Khattar</title>
+  <style>
+    .transition { transition: opacity 0.3s ease-in-out; }
+  </style>
+</head>
+<body class="bg-white dark:bg-[#111111] dark:text-slate-100  max-w-3xl m-auto">
+
+    <div class="page">
+        
+        <div class="navbar flex justify-between items-center m-auto mt-2 p-3">
+
+            <div class="logo-class grow md:grow-0">
+                <a href="index.html" class="hover:bg-gray-100  dark:hover:bg-zinc-800 active:bg-gray-200 m-3 p-2 rounded-md ">Kaveesh Khattar</a>
+            </div>
+
+            <div class="nav-hidden hidden md:inline-block">
+                <a href="about.html" class="hover:bg-gray-100 bg-gray-100 dark:hover:bg-zinc-800 m-3 p-2 rounded-md">About</a>
+                <a href="projects.html" class="hover:bg-gray-100  dark:hover:bg-zinc-800 m-3 p-2  rounded-md">Projects</a>
+                <a href="publications.html" class="hover:bg-gray-100  dark:hover:bg-zinc-800 m-3 p-2 rounded-md">Publications</a>
+            </div>
+
+            <div class="mode-class">
+                
+                <button id="mode-button" class="hamburger-button rounded-md m-3 p-2 hover:bg-gray-100  dark:hover:bg-zinc-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path id="mode-icon-path" stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+                      </svg>
+                      
+                </button>
+
+                <div id="mode-options" class="hidden absolute transform -translate-x-2 -translate-y-2 min-w-min mt-1 border-gray-300 rounded-md bg-white shadow-lg z-10 overflow-auto  dark:bg-black">
+                    
+                    <a href="" id="light-mode" class="rounded-md whitespace-nowrap block m-2 p-2 hover:bg-gray-200 dark:hover:bg-zinc-800">
+                        Light
+                    </a>
+                    <a href="" id="dark-mode" class="rounded-md whitespace-nowrap block m-2 p-2 hover:bg-gray-200 dark:hover:bg-zinc-800">
+                        Dark
+                    </a>
+                    <a href="" id="system-mode" class="rounded-md whitespace-nowrap block m-2 p-2 hover:bg-gray-200 dark:hover:bg-zinc-800">                        
+                        Automatic
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="dropdown md:hidden inline-flex grow-0 flex-col relative">
+                <button id="dropdown-button" class="hamburger-button rounded-md m-3 p-2 hover:bg-gray-200 dark:hover:bg-zinc-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                </button>
+
+                <div id="dropdown-options" class="hidden absolute left-0 transform -translate-x-16 translate-y-14 min-w-min mt-1 border-gray-300 rounded-md bg-white shadow-lg z-10 overflow-auto  dark:bg-black transition origin-top-right ease-out">
+                    <a href="about.html" class="hover:bg-gray-100  dark:hover:bg-zinc-800 m-3 p-2 rounded-md">About</a>
+                    <a href="projects.html" class="hover:bg-gray-100 bg-gray-100 dark:hover:bg-zinc-800 m-3 p-2 rounded-md">Projects</a>
+                    <a href="publications.html" class="hover:bg-gray-100  dark:hover:bg-zinc-800 m-3 p-2 rounded-md">Publications</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="body-of-the-page p-3">
+
+            <div class="page-header-box m-3 p-2">
+                <div class="title text-3xl font-bold">
+                    About
+                </div>
+                <div class="caption">
+                    A glimpse into me.
+                </div>
+            </div>
+
+            <div class="photos">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+
+            <div class="flex m-auto items-center mt-16 mb-16 overflow-visible">
+                <div class="">
+                    <img src="../imgs/p-1.png" alt="" class="md:scale-125 scale-90 rotate-15 rounded-lg hover:-skew-y-12">
+                </div>
+                <div class="">
+                    <img src="../imgs/p-3.png" alt="" class="hidden md:inline md:scale-125 -rotate-15 rounded-lg hover:-skew-y-12">
+                </div> 
+                <div class="">
+                    <img src="../imgs/p-2-sub.png" alt="" class="hidden md:inline md:scale-125 rotate-15 rounded-lg hover:skew-y-12">
+                </div>
+                <div class="">
+                    <img src="../imgs/p-4.png" alt="" class="md:scale-125 scale-90 -translate-y-12 sm:-translate-y-0 -rotate-15 rounded-lg hover:-skew-y-12">
+                </div>                
+            </div>            
+
+            <div class="text-intro m-3 p-2 flex sm:flex-row flex-col justify-between">
+                
+                <div class="heading text-zinc-400 mr-3 mb-4 basis-1/4 content-start grow font-light">
+                    About
+                </div>
+
+                <div class="text basis-3/4 flex flex-col grow justify-between text-justify">
+                    Hi, I'm Kaveesh, born and raised in Bangalore, India. As a software engineer, I specialise in Backend Systems & Machine Learning.
+                    
+                    <br> <br>
+
+                    Beyond academics, I've enjoyed leading workshops and contributing to tech communities to foster learning and engagement in software development.
+
+                    <br><br>
+                    When I'm not at my desk, I am probably lifting weights, playing the guitar or cooking :]
+
+                </div>
+
+            </div>
+
+            <div class="experience m-3 p-2 mt-12 flex sm:flex-row flex-col justify-between">
+                
+                <div class="heading mr-3 mb-4 text-zinc-400 content-start basis-1/4 font-light ">    
+                    Work
+                </div>
+                
+                <div class="companies flex flex-col grow basis-3/4 ">
+
+                    <a href="https://www.att.com/" target="_blank">
+                        <div class="company flex flex-row justify-between grow mb-8">
+                            <div class="left-hand-side flex flex-row basis-2/3 ">
+                                <div class="company-logo shrink-0 content-center">
+                                    
+                                        <img src="../imgs/att.jpg" alt="" class="w-14 rounded-lg">
+                                </div>
+                                <div class="text content-center ml-4">                            
+                                    <div class="company-name">
+                                        AT&T
+                                    </div>                            
+                                    <div class="position-name font-light">
+                                        Software Developer
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="duration text-right font-light content-center ml-2 basis-1/3 ">
+                            Feb&nbsp;2024 - 
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.myelinfoundry.com/" target="_blank">
+                        <div class="company flex flex-row mb-2 justify-between grow ">
+                            <div class="left-hand-side flex flex-row basis-2/3 ">
+                                <div class="company-logo shrink-0 content-center">
+                                    <img src="../imgs/myelin.png" alt="" class="w-14 rounded-lg">
+                                </div>
+                                <div class="text content-center ml-4">
+                                    <div class="company-name">
+                                        Myelin Foundry
+                                    </div>                            
+                                    <div class="position-name font-light">
+                                        Machine Learning Intern
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="duration text-right font-light content-center ml-2 basis-1/3 ">
+                                June&nbsp;2023 - July&nbsp;2023
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="text-intro m-3 p-2 mt-12 flex sm:flex-row flex-col justify-between">
+                
+                <div class="heading text-zinc-400 mb-4 mr-3 basis-1/4 content-start grow font-light">
+                    Connect
+                </div>
+
+                <div class="text basis-3/4 justify-between grid grid-cols-1 md:grid-cols-2 gap-4 ">
+                    
+                    <a href="mailto:kaveeshkhattar@gmail.com">
+                        <div class="email flex justify-between bg-[#f9f9f9] dark:bg-[#191919] rounded-lg">
+
+                            <div class="left-hand-side flex">
+                                <div class="icon m-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                        <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+                                        <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
+                                    </svg>                                                         
+                                </div>
+                                <div class="text m-3">
+                                    Email
+                                </div>
+                            </div>
+    
+                            <div class="arrow m-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>                              
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="../pdfs/Resume.pdf", target="_blank">
+                        <div class="resume flex justify-between bg-[#f9f9f9] dark:bg-[#191919] rounded-lg">
+
+                            <div class="left-hand-side flex">
+                                <div class="icon m-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                        <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" clip-rule="evenodd" />
+                                    </svg>                                                            
+                                </div>
+                                <div class="text m-3">
+                                    Résumé
+                                </div>
+                            </div>
+    
+                            <div class="arrow m-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>                              
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/kaveeshkhattar/", target="_blank">
+                        <div class="instagram flex justify-between bg-[#f9f9f9] dark:bg-[#191919] rounded-lg">
+
+                            <div class="left-hand-side flex">
+                                <div class="icon m-3 text-2xl">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                                </div>
+                                <div class="text m-3">
+                                    Instagram
+                                </div>
+                            </div>
+    
+                            <div class="arrow m-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>                              
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://x.com/KaveeshKhattar", target="_blank">
+                        <div class="twitter flex justify-between bg-[#f9f9f9] dark:bg-[#191919] rounded-lg">
+
+                            <div class="left-hand-side flex">
+                                <div class="icon m-3 text-2xl">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>
+                                </div>
+                                <div class="text m-3">
+                                    Twitter
+                                </div>
+                            </div>
+    
+                            <div class="arrow m-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>                              
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/kaveeshkhattar/", target="_blank">
+                        <div class="twitter flex justify-between bg-[#f9f9f9] dark:bg-[#191919] rounded-lg">
+
+                            <div class="left-hand-side flex">
+                                <div class="icon m-3 text-2xl">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                                </div>
+                                <div class="text m-3">
+                                    LinkedIn
+                                </div>
+                            </div>
+    
+                            <div class="arrow m-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>                              
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/KaveeshKhattar", target="_blank">
+                        <div class="github flex justify-between bg-[#f9f9f9] dark:bg-[#191919] rounded-lg">
+
+                            <div class="left-hand-side flex">
+                                <div class="icon m-3 text-2xl">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                                </div>
+                                <div class="text m-3">
+                                    GitHub
+                                </div>
+                            </div>
+    
+                            <div class="arrow m-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>                              
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        document.getElementById('dropdown-button').addEventListener('click', () => {
+            var menu = document.getElementById('dropdown-options');
+            if(menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                menu.classList.add('flex');
+                menu.classList.add('flex-col');
+            } else {
+                menu.classList.add('hidden');
+                menu.classList.add('flex');
+                menu.classList.add('flex-col');
+            }
+        });
+
+        document.getElementById('mode-button').addEventListener('click', () => {
+            var menu = document.getElementById('mode-options');
+            if(menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                menu.classList.add('flex');
+                menu.classList.add('flex-col');
+            } else {
+                menu.classList.add('hidden');
+                menu.classList.add('flex');
+                menu.classList.add('flex-col');
+            }
+        });
+
+        const lightThemeButton = document.querySelector('#light-mode');
+        const darkThemeButton = document.querySelector('#dark-mode');
+        const systemThemeButton = document.querySelector('#system-mode');
+
+        function handleSystemTheme() {
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        if (prefersDarkScheme.matches) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+        prefersDarkScheme.addEventListener('change', (e) => {
+            if (localStorage.getItem('theme') === 'system') {
+            if (e.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+            }
+        });
+        }
+
+        function setTheme(theme) {
+            localStorage.setItem('theme', theme);
+        }
+
+        function setMode(mode) {
+        if (mode === 'light') {
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
+            updateIcon('light');
+        } else if (mode === 'dark') {
+            document.documentElement.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
+            updateIcon('dark');
+        } else if (mode === 'system') {
+            localStorage.setItem('theme', 'system');
+            handleSystemTheme();
+            updateIcon('system');
+        }
+        }
+
+        lightThemeButton.addEventListener('click', (e) => {
+            // e.preventDefault();
+            // setTheme('light');
+            setMode('light');
+            updateIcon('light');
+        });
+
+        darkThemeButton.addEventListener('click', (e) => {
+            // e.preventDefault();
+            // setTheme('dark');
+            setMode('dark');
+            updateIcon('dark');
+        });
+
+        systemThemeButton.addEventListener('click', (e) => {
+            // e.preventDefault();
+            // setTheme('system');
+            setMode('system');
+            handleSystemTheme();
+            updateIcon('system');
+        });
+
+        function updateIcon(mode) {
+        const iconPath = document.getElementById('mode-icon-path');
+        if (mode === 'light') {
+            iconPath.setAttribute('d', "M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z");
+
+        } else if (mode === 'dark') {
+            iconPath.setAttribute('d', 'M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z');
+
+        } else if (mode === 'system') {
+            iconPath.setAttribute('d', "M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25");
+
+        }
+        }
+
+        document.addEventListener('click', (event) => {
+            var dropdownMenu = document.getElementById('dropdown-options');
+            var modeMenu = document.getElementById('mode-options');
+            if (!dropdownMenu.contains(event.target) && !document.getElementById('dropdown-button').contains(event.target)) {
+                dropdownMenu.classList.add('hidden');
+                dropdownMenu.classList.remove('flex');
+                dropdownMenu.classList.remove('flex-col');
+            }
+            if (!modeMenu.contains(event.target) && !document.getElementById('mode-button').contains(event.target)) {
+                modeMenu.classList.add('hidden');
+                modeMenu.classList.remove('flex');
+                modeMenu.classList.remove('flex-col');
+            }
+        });
+
+        (function initTheme() {
+        const storedTheme = localStorage.getItem('theme') || 'system';
+        if (storedTheme === 'system') {
+            handleSystemTheme();
+        } else if (storedTheme === 'dark') {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+        updateIcon(storedTheme);
+        })();
+    </script>
+
+</body>
+</html>
